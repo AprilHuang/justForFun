@@ -1,0 +1,239 @@
+CFResponse Object
+(
+    [header] => Array
+        (
+            [date] => Mon, 10 Mar 2014 21:34:52 GMT
+            [server] => Server
+            [content-type] => text/xml;charset=UTF-8
+            [content-encoding] => gzip
+            [vary] => Accept-Encoding,User-Agent
+            [nncoection] => close
+            [transfer-encoding] => chunked
+            [_info] => Array
+                (
+                    [url] => https://ecs.amazonaws.com/onca/xml?AWSAccessKeyId=AKIAJA4RLVLDWMG4UBCQ&AssociateTag=buybuytoget0e-20&BrowseNodeId=1036592&Operation=BrowseNodeLookup&ResponseGroup=BrowseNodeInfo&Service=AWSECommerceService&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2014-03-10T21%3A34%3A52Z&Version=2010-06-01&Signature=84KXYoQvzJL8kaZ%2BZ5FBKuoMMj7oyQXZ4ezeHTSs4sM%3D
+                    [content_type] => text/xml;charset=UTF-8
+                    [http_code] => 200
+                    [header_size] => 215
+                    [request_size] => 1252
+                    [filetime] => -1
+                    [ssl_verify_result] => 0
+                    [redirect_count] => 0
+                    [total_time] => 0.435445
+                    [namelookup_time] => 6.8E-5
+                    [connect_time] => 0.079395
+                    [pretransfer_time] => 0.242623
+                    [size_upload] => 0
+                    [size_download] => 851
+                    [speed_download] => 1954
+                    [speed_upload] => 0
+                    [download_content_length] => -1
+                    [upload_content_length] => 0
+                    [starttransfer_time] => 0.435246
+                    [redirect_time] => 0
+                    [certinfo] => Array
+                        (
+                        )
+
+                    [redirect_url] => 
+                    [method] => GET
+                )
+
+            [x-aws-requesturl] => https://ecs.amazonaws.com/onca/xml?AWSAccessKeyId=AKIAJA4RLVLDWMG4UBCQ&AssociateTag=buybuytoget0e-20&BrowseNodeId=1036592&Operation=BrowseNodeLookup&ResponseGroup=BrowseNodeInfo&Service=AWSECommerceService&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2014-03-10T21%3A34%3A52Z&Version=2010-06-01&Signature=84KXYoQvzJL8kaZ%2BZ5FBKuoMMj7oyQXZ4ezeHTSs4sM%3D
+            [x-aws-stringtosign] => GET
+ecs.amazonaws.com
+/onca/xml
+AWSAccessKeyId=AKIAJA4RLVLDWMG4UBCQ&AssociateTag=buybuytoget0e-20&BrowseNodeId=1036592&Operation=BrowseNodeLookup&ResponseGroup=BrowseNodeInfo&Service=AWSECommerceService&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2014-03-10T21%3A34%3A52Z&Version=2010-06-01
+        )
+
+    [body] => CFSimpleXML Object
+        (
+            [@attributes] => Array
+                (
+                    [ns] => http://webservices.amazon.com/AWSECommerceService/2011-08-01
+                )
+
+            [OperationRequest] => CFSimpleXML Object
+                (
+                    [HTTPHeaders] => CFSimpleXML Object
+                        (
+                            [Header] => CFSimpleXML Object
+                                (
+                                    [@attributes] => Array
+                                        (
+                                            [Name] => UserAgent
+                                            [Value] => aws-sdk-php/1.5 PHP/5.3.10-1ubuntu3.8 Linux/3.2.0-23-generic Arch/x86_64 SAPI/cli Integer/9223372036854775807 Build/20111215014733 simplexml/0.1 json/1.2.1 pcre/8.12 spl/0.2 curl/7.22.0 openssl/1.0.1 pdo/1.0.4dev pdo_sqlite/1.0.1 sqlite3/0.7-dev zlib/1.1 xdebug/2.1.0 memory_limit/-1 date.timezone/ open_basedir/off safe_mode/off zend.enable_gc/on
+                                        )
+
+                                )
+
+                        )
+
+                    [RequestId] => deb1fb28-add5-461a-804c-b26c8badd76f
+                    [Arguments] => CFSimpleXML Object
+                        (
+                            [Argument] => Array
+                                (
+                                    [0] => CFSimpleXML Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [Name] => Operation
+                                                    [Value] => BrowseNodeLookup
+                                                )
+
+                                        )
+
+                                    [1] => CFSimpleXML Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [Name] => Service
+                                                    [Value] => AWSECommerceService
+                                                )
+
+                                        )
+
+                                    [2] => CFSimpleXML Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [Name] => Signature
+                                                    [Value] => 84KXYoQvzJL8kaZ+Z5FBKuoMMj7oyQXZ4ezeHTSs4sM=
+                                                )
+
+                                        )
+
+                                    [3] => CFSimpleXML Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [Name] => AssociateTag
+                                                    [Value] => buybuytoget0e-20
+                                                )
+
+                                        )
+
+                                    [4] => CFSimpleXML Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [Name] => Version
+                                                    [Value] => 2010-06-01
+                                                )
+
+                                        )
+
+                                    [5] => CFSimpleXML Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [Name] => BrowseNodeId
+                                                    [Value] => 1036592
+                                                )
+
+                                        )
+
+                                    [6] => CFSimpleXML Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [Name] => SignatureMethod
+                                                    [Value] => HmacSHA256
+                                                )
+
+                                        )
+
+                                    [7] => CFSimpleXML Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [Name] => AWSAccessKeyId
+                                                    [Value] => AKIAJA4RLVLDWMG4UBCQ
+                                                )
+
+                                        )
+
+                                    [8] => CFSimpleXML Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [Name] => Timestamp
+                                                    [Value] => 2014-03-10T21:34:52Z
+                                                )
+
+                                        )
+
+                                    [9] => CFSimpleXML Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [Name] => ResponseGroup
+                                                    [Value] => BrowseNodeInfo
+                                                )
+
+                                        )
+
+                                    [10] => CFSimpleXML Object
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [Name] => SignatureVersion
+                                                    [Value] => 2
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [RequestProcessingTime] => 0.00181
+                )
+
+            [BrowseNodes] => CFSimpleXML Object
+                (
+                    [Request] => CFSimpleXML Object
+                        (
+                            [IsValid] => True
+                            [BrowseNodeLookupRequest] => CFSimpleXML Object
+                                (
+                                    [BrowseNodeId] => 1036592
+                                    [ResponseGroup] => BrowseNodeInfo
+                                )
+
+                        )
+
+                    [BrowseNode] => CFSimpleXML Object
+                        (
+                            [BrowseNodeId] => 1036592
+                            [Name] => Clothing & Accessories
+                            [Children] => CFSimpleXML Object
+                                (
+                                    [BrowseNode] => Array
+                                        (
+                                            [0] => CFSimpleXML Object
+                                                (
+                                                    [BrowseNodeId] => 1036682
+                                                    [Name] => Departments
+                                                    [IsCategoryRoot] => 1
+                                                )
+
+                                            [1] => CFSimpleXML Object
+                                                (
+                                                    [BrowseNodeId] => 51569011
+                                                    [Name] => Featured Categories
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [status] => 200
+)
